@@ -1,0 +1,11 @@
+* {
+    border-style: solid;
+    border-color: blue;
+}
+
+.formdiv {
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}

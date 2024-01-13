@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>opdracht 2 -pizza-</title>
+</head>
+<body>
+    <h1>lol</h1>
+    <form action="berekening.php" method="post">
+            <label for="ingelegd">ingelegd bedrag: </label><br><br>
+            <input type="number" name="ingelegd" id="ingelegd" min="0" required><br><br>
+            <label for="rente">Rentepercentage: </label><br><br>
+            <input type="number" name="rente" id="rente" min="0" required><br><br>
+
+            <label for="10_jaar">Eindbedrag na 10 jaar</label>
+            <input type="radio" name="radiobtn" id="10_jaar" value="10_jaar" checked required><br>
+            <label for="verdubbeld">Eindbedrag verdubbeld</label>
+            <input type="radio" name="radiobtn" id="verdubbeld" value="verdubbeld"><br><br>
+            <input type="submit" value="bereken" name="submit">
+    </form>
+</body>
+</html>
